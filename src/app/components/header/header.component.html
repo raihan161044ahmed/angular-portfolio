@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+          Logo
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/languages">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/recommendations">Recommendations</a>
+            </li>
+          </ul>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="themeSwitch" (change)="toggleTheme()" [checked]="isDarkTheme">
+            <label class="form-check-label" for="themeSwitch">{{ isDarkTheme ? 'Dark' : 'Light' }} Mode</label>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
