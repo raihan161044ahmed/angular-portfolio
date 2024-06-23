@@ -1,0 +1,42 @@
+.footer {
+      background: linear-gradient(135deg, #5846a8 0%, #6b82e9 100%);
+      padding: 20px 0;
+      color: #fff;
+    }
+    
+    .footer .container {
+      display: flex;
+      justify-content: space-between; 
+      flex-wrap: wrap;
+    }
+    
+    .footer .col-lg-4 {
+      margin-bottom: 20px;
+    }
+    
+    .footer .bullet-text {
+      list-style-type: none; 
+      padding-left: 0;
+      margin-left: 20px;
+    }
+    
+    .footer .form-control {
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+    
+    .footer .form-control::placeholder {
+      color: #bbb;
+    }
+    
+    .footer .btn-primary {
+      background-color: #6b82e9;
+      border-color: #6b82e9;
+    }
+    
+    .footer .btn-primary:hover {
+      background-color: #5846a8;
+      border-color: #5846a8;
+    }
+    
