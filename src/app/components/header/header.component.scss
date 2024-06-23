@@ -1,65 +1,33 @@
 /* General styles */
 body {
-      transition: background-color 0.3s, color 0.3s;
-    }
-    
-    /* Dark theme styles */
-    .dark-theme {
-      background-color: #343a40;
-      color: #fff;
-    }
-    
-    .dark-theme .navbar {
-      background-color: #343a40 !important;
-      color: #fff !important;
-    }
-    
-    .dark-theme .navbar-light .navbar-brand,
-    .dark-theme .navbar-light .nav-link {
-      color: #fff !important;
-    }
-    
-    .dark-theme .form-check-label {
-      color: #fff;
-    }
-    
-    .dark-theme .btn-outline-secondary {
-      color: #fff;
-      border-color: #fff;
-    }
-    
-    .dark-theme .btn-outline-secondary:hover {
-      background-color: #fff;
-      color: #343a40;
-    }
-    
-    /* Light theme styles (optional, to explicitly define) */
-    .light-theme {
-      background-color: #fff;
-      color: #000;
-    }
-    
-    .light-theme .navbar {
-      background-color: #f8f9fa !important;
-      color: #000 !important;
-    }
-    
-    .light-theme .navbar-light .navbar-brand,
-    .light-theme .navbar-light .nav-link {
-      color: #000 !important;
-    }
-    
-    .light-theme .form-check-label {
-      color: #000;
-    }
-    
-    .light-theme .btn-outline-secondary {
-      color: #000;
-      border-color: #000;
-    }
-    
-    .light-theme .btn-outline-secondary:hover {
-      background-color: #000;
-      color: #fff;
-    }
-    
+  background: linear-gradient(135deg,  #6b82e9 0%, #5846a8 100%); 
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.navbar {
+  background: linear-gradient(135deg, #6b82e9 0%, #5846a8 100%) !important;
+  color: #fff !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-item ,.navbar-brand{
+  margin-right: 45px; 
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0; 
+}
+
